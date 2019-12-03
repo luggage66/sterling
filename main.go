@@ -68,5 +68,6 @@ func initClickhouse() {
 }
 
 func main() {
+	fmt.Printf("starting")
 	initClickhouse()
 }
