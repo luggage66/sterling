@@ -9,7 +9,7 @@ import (
 )
 
 func initClickhouse() {
-	connect, err := sql.Open("clickhouse", "http://localhost:8123")
+	connect, err := sql.Open("clickhouse", "http://localhost:9000")
 	if err != nil {
 		log.Fatal(err)
 	}
